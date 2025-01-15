@@ -304,13 +304,6 @@ function App() {
               <label htmlFor="password">Password</label>
             </div>
             <button className="btn btn-primary">登入</button>
-            <button
-                onClick={checkUserLogin}
-                className="btn btn-success mb-5"
-                type="button"
-              >
-                檢查使用者是否登入
-              </button>
           </form>
           <p className="mt-5 mb-3 text-muted">&copy; 2024~∞ - 六角學院</p>
         </div>
